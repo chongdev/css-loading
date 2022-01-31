@@ -1,0 +1,62 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: #113466;
+}
+
+.css-eqd87u {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(rgba(0, 0, 0, 0.05) 30%, transparent);
+    z-index: 2000;
+}
+.css-1im8r3j {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    font-size: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 9;
+    transform: translate(-50%, -50%);
+}
+
+.css-1im8r3j > div {
+    background-color: #fff;
+    height: 100%;
+    width: 3px;
+    display: inline-block;
+    margin: 0px 1px;
+    animation: 1.2s ease-in-out 0s infinite normal none running animation-hqgv56;
+}
+
+.css-1im8r3j > .rect2 {
+    animation-delay: -1.1s;
+}
+
+.css-1im8r3j > .rect3 {
+    animation-delay: -1s;
+}
+
+.css-1im8r3j > .rect4 {
+    animation-delay: -0.9s;
+}
+
+.css-1im8r3j > .rect5 {
+    animation-delay: -0.8s;
+}
+
+@keyframes animation-hqgv56 {
+    0%, 40%, 100% {
+        transform: scaleY(0.4);
+    }
+    20% {
+        transform: scaleY(1);
+    }
+}
